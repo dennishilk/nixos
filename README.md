@@ -58,6 +58,12 @@ It represents my actual running setup, including:
 It’s designed to be **clean**, **stable**, and **fully reproducible** –  
 perfect for everyday use and testing under NixOS.
 
+🧷 License / Usage
+
+This repository does not contain software,
+only my personal configuration files.
+Feel free to explore or adapt parts of it — at your own risk.
+
 ---
 
 ## 🐙 Git & Backup
