@@ -58,6 +58,20 @@ It represents my actual running setup, including:
 It’s designed to be **clean**, **stable**, and **fully reproducible** –  
 perfect for everyday use and testing under NixOS.
 
+### 🔧 Backup Script
+The included script `nixos-backup-local.sh` securely creates an encrypted snapshot of your system configuration.
+
+**Features:**
+- Copies `/etc/nixos`, `~/.config`, and important home files  
+- Automatically excludes browsers, cache, and secrets  
+- Compresses everything into a single `.tar.gz`  
+- Encrypts the archive with **AES-256** and a **password prompt (with confirmation)**  
+- Securely deletes the unencrypted archive after encryption  
+
+### 🧩 Run the backup
+```bash
+~/nixos-backup-local.sh
+
 ## 🧷 License / Usage
 
 This repository does not contain software,
