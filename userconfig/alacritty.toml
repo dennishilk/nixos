@@ -13,7 +13,7 @@ startup_mode = "Windowed"
 
 [window.position]
 x = 1000
-y = 350
+y = 375
 
 [window.dimensions]
 columns = 150
@@ -21,6 +21,19 @@ lines = 45
 
 [scrolling]
 history = 10000
+
+# =========================================================
+# Mouse bindings for Copy/Paste
+# =========================================================
+
+[[mouse.bindings]]
+mouse = "Right"
+action = "Copy"
+
+[[mouse.bindings]]
+mouse = "Middle"
+action = "Paste"
+
 
 [font]
 normal.family = "JetBrainsMono Nerd Font"
