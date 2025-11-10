@@ -6,7 +6,6 @@
 ![GPU](https://img.shields.io/badge/NVIDIA-RTX_3060_Ti-76b900?logo=nvidia&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-Zsh+Powerlevel10k-1abc9c?logo=gnu-bash&logoColor=white)
 ![License](https://img.shields.io/badge/Use-At_Your_Own_Risk-red)
-![Status](https://img.shields.io/badge/System-cthulhu-success?logo=linux&logoColor=white)
 
 
 > ⚠️ **Hinweis / Note:**  
