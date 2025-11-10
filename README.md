@@ -1,5 +1,14 @@
 # 🐧 Dennis Hilk – NixOS System Backup (`cthulhu`)
 
+![NixOS](https://img.shields.io/badge/NixOS-25.05-blue?logo=nixos&logoColor=white)
+![Desktop](https://img.shields.io/badge/Desktop-XFCE-orange?logo=xfce&logoColor=white)
+![Theme](https://img.shields.io/badge/Theme-Gruvbox-8ec07c?logo=artstation&logoColor=white)
+![GPU](https://img.shields.io/badge/NVIDIA-RTX_3060_Ti-76b900?logo=nvidia&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-Zsh+Powerlevel10k-1abc9c?logo=gnu-bash&logoColor=white)
+![License](https://img.shields.io/badge/Use-At_Your_Own_Risk-red)
+![Status](https://img.shields.io/badge/System-cthulhu-success?logo=linux&logoColor=white)
+
+
 > ⚠️ **Hinweis / Note:**  
 > Dies ist **mein persönliches System-Backup** für meinen NixOS-Rechner **"cthulhu"**.  
 > Es dient ausschließlich als Referenz und Sicherung meiner eigenen Konfiguration.  
