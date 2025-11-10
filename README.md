@@ -33,6 +33,22 @@ Es spiegelt exakt meinen laufenden Zustand wieder – inklusive:
 - 🧊 **Kernel:** Linux 6.17+
 - 🕹️ **Ziel:** Gaming + Entwicklung + Linux-Optimierung
 
+## 🔧 Backup-Skript
+
+Das beiliegende Skript nixos-backup-local.sh erstellt ein verschlüsseltes Backup deiner NixOS-Konfiguration.
+
+Funktionen:
+
+Sichert /etc/nixos, ~/.config und wichtige Dateien im Home-Verzeichnis
+
+Schließt Browser, Cache und sensible Daten automatisch aus
+
+Komprimiert alles zu einer .tar.gz-Datei
+
+Verschlüsselt das Archiv mit AES-256 und Passwortabfrage (mit Bestätigung)
+
+Löscht die unverschlüsselte Datei sicher nach der Verschlüsselung
+
 Dieses Setup ist darauf ausgelegt, **optisch minimalistisch**, **technisch stabil**  
 und **leicht reproduzierbar** zu sein – ideal für den Alltag mit NixOS.
 
@@ -80,7 +96,7 @@ environment.systemPackages = with pkgs; [
 ];
 
 ### 🧩 Run the backup
-```bash
+
 ~/nixos-backup-local.sh
 
 ## 🧷 License / Usage
